@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    ["module-resolver", 
+       {
+         "root": ["/"],
+         "extensions": [".js"],
+         "cwd":"babelrc",
+         "alias": {
+           "@":"./src/assets"
+         }
+      }
+    ]
+  ]
+}
